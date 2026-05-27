@@ -1,15 +1,121 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: black;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     display: flex;
     height: 100vh;
+}
+
+.sidebar {
+    width: 425px;
+    background-color: #121212;
+    padding: 24px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-logo-spotify {
+    font-size: 32px;
+}
+
+.nav-library button {
+    cursor: pointer;
+    background-color: #1b1a1a;
+    color: white;
+    border-radius: 18px;
+    padding: 8px 16px;
+    border: none;
+}
+
+.nav-library p, button {
+    columns: #B7B3B6;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: bold;
+}
+
+.nav-playlist {
+    background-color:#1b1a1a;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.nav-playlist p {
+    padding: 16px;
+    padding-left: 0px;
+}
+
+.nav-podcast {
+    background-color:#1b1a1a;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.nav-podcast p {
+    padding: 16px;
+    padding-left: 0px;
+}
+
+.nav-playlist button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 16px;
+    border-radius: 18px;
+}
+
+.nav-podcast button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 16px;
+    border-radius: 18px;
+}
+
+.nav-footer {
+    margin-top: 16px;
+}
+
+.nav-footer a {
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: 16px;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.nav-footer p {
+    padding: 16px;
+    padding-left: 0px;
+}
+
+.nav-lang-button button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }

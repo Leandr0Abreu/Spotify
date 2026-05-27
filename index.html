@@ -1,23 +1,26 @@
  <!DOCTYPE html>
- <html lang="en">
+ <html lang="pt-br">
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/def3d2e5e3.js" crossorigin="anonymous"></script>
-    <link rel="stylessheet" href="styless.css">
+    <link rel="stylesheet" href="styless.css">
     <title>Sportfy</title>
  </head>
  <body>
     <div 
          class= "container">
-    </div>
+    
 
-    <nav>
+    <nav class="sidebar">
     <div class="nav-logo-spotify">
         <i class="fa-brands fa-spotify"></i>
     </div>
 
-    <div class="NavLibrary">
+    <div class="nav-library">
         <p>Your Library <button>+ Create</button></p>
     </div>
 
@@ -39,10 +42,11 @@
         <a href="#">Privacy Polity</a>
         <a href="#">Cookies</a>
         <a href="#">About Ads</a>
-        <a href="#">Accessibility</a>  
+        <a href="#">Accessibility</a> 
+        <p href="#">Cookies</p>
     </div>
 
-    <div class="nav-logo-button">
+    <div class="nav-lang-button">
         <button><i class="fa-solid fa-globe"></i> English</button>
     </div>
     </nav>
@@ -70,7 +74,7 @@
             <button>Log in</button>
             </div>
         </header>
-
+        
         <section class="content">
             <h2>Trending songs</h2>
             <div class="trending-grid">
@@ -86,10 +90,9 @@
             <div class="albums-singles-grid">
                 <!--Inserir Dados com JS-->
             </div>
-
         </section>
-
     </main>
-
+    </div>
  </body>
+<script src="./script.js"></script>
  </html>
